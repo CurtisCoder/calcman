@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#calcField {
+    height: 50px;
+    width: 400px;
+    font-size: 40px;
+    background-color: aqua;
+    margin: 20px;
+    padding: 0px 10px;
+    
+    border-radius: 5%;
+
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    border-radius: 5%;
+}
+
+#clr {
+    background-color: palevioletred;
+}
+
+.numBtns {
+    background-color: rgb(81, 210, 30);
+
+}
+
+.opBtns {
+    background-color: darkorange;
+}
+
+.btnBox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
