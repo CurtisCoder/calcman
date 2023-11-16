@@ -133,8 +133,9 @@
 				var formulaFinished = formulaArray.join('');
 				console.log(formulaFinished);	
 				result = eval(formulaFinished);
+				let round_result = result.toFixed(2);
 				console.log(result);
-				document.querySelector("#calcField").textContent = result;
+				document.querySelector("#calcField").textContent = round_result;
 				});
 			
 		}
@@ -145,10 +146,10 @@
 
 		function clearFieldArray() {
 
-			var clearScreen = document.querySelector('#clr');
+			var clearScreen = document.querySelector('.clr');
 
 			clearScreen.addEventListener('click', function() {
-				var clearNum = document.querySelector("#clr").value;
+				var clearNum = document.querySelector(".clr").value;
 				document.querySelector("#calcField").textContent = clearNum;
 
 				//fieldArray.length = 0;

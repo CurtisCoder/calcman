@@ -1,0 +1,37 @@
+<script>
+
+let numExp = "1+2*8/96-45";
+
+let length = numExp.length;
+console.log(length);
+
+let numExp2 = 0;
+let numX = 0;
+let opt = "";
+let numExp3 = "";
+let expr = 0;
+
+for (let i = 0; i < length; i++) {
+  	
+	numX = numExp.substr(i,1);
+
+	if(!isNaN(numX)){
+		numX = numX * 1;		
+		expr = expr + numX;
+
+	} else {
+		opt = numX;		
+		expr = expr + opt;
+
+	}
+	
+	}
+  
+console.log(expr);
+
+restul = 1+2*8/96-45;
+console.log(restul);
+
+
+
+</script>
